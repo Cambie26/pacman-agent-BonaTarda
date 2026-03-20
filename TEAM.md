@@ -6,7 +6,7 @@
 
 **Instructor:** _[name of your instructor]_
 
-**Team name:** _[replace this with team name in plan text]_
+**Team name:** BonaTarda (UPF)
 
 **Team members:**
 
