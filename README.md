@@ -1,8 +1,18 @@
-# Pacman Agent
+# BonaTarda — UPF Pac-Man CTF Contest Agent
+
+Team entry for the inter-university Pac-Man Capture-the-Flag contest (UPF MSc
+Intelligent Interactive Systems). `my_team.py` implements a heuristic offensive
+agent — precomputed border crossings for escape distance, capsule pursuit gated
+on ghost `scared_timer` and a race check against the ghost's own distance to the
+capsule, risk scaling with pellets carried, and an endgame return trigger — plus
+a defensive agent that inverts its invader distance while scared.
+
+
+
+## Setting up the environment
 
 A template for coding a pacman agent.
 
-## Setting up the environment
 1. Copy or clone the code from this framework to create your Pacman Agent, e.g., `git clone git@github.com:aig-upf/pacman-agent.git`
 2. Go into pacman-agent folder, `cd pacman-agent/`
 3. Run `git submodule update --init --remote` to pull the last pacman-contest
